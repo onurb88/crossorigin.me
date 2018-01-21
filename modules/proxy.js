@@ -16,7 +16,7 @@ let serverHeadersBlacklist = new Set([
     'connection',
 ]);
 
-var sizeLimit = 2e6; //TODO: change this to something different depending on tier. It's fine for now.
+var sizeLimit = 6e6; //TODO: change this to something different depending on tier. It's fine for now.
 /*
 get handler handles standard GET reqs as well as streams
 */
